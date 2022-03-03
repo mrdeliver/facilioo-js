@@ -19,3 +19,4 @@ setTimeout( function(){
         let index = sliderInstance.activeIndex - 4;
         headingElement.innerHTML = headings[index];
 }  , 5000 );
+ 
