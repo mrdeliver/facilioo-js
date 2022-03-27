@@ -24,8 +24,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
     const horizons = document.querySelector("#mec_skin_events_220 > div > div > div").children;
     const scrollContainer = document.querySelector("body > div.elementor.elementor-81 > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-6dcffff.elementor-section-full_width.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-b688e28.calendar-horizontale > div");
 
-    const container = document.querySelector("body > div.elementor.elementor-81 > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-6dcffff.elementor-section-full_width.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-b688e28.calendar-horizontale > div");
+    // const container = document.querySelector("body > div.elementor.elementor-81 > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-6dcffff.elementor-section-full_width.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-b688e28.calendar-horizontale > div");
 
+    const container = document.querySelector("body > div.elementor.elementor-81 > section.elementor-section.elementor-top-section.elementor-element.elementor-element-6dcffff.elementor-section-full_width.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-b688e28.calendar-horizontale > div");
+    
     let isDown = false;
     let startX;
     let scrollLeft;
