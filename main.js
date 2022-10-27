@@ -86,7 +86,9 @@
 window.onload = function() {
     var menuItem = document.querySelector("#menu-item-64");
     console.log(menuItem);
-    menuItem.parentNode.replaceChild(menuItem.cloneNode(true), menuItem);
+    if (menuItem) {
+        menuItem.parentNode.replaceChild(menuItem.cloneNode(true), menuItem);
+    }
 };
 
 // Scroll Box 
